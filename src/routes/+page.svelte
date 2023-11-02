@@ -3,7 +3,8 @@
 
 <nav>
   <ul>
-    <a href="/gallery/+page.svelte"><li>Gallery</li></a>
+    <li></li>
+    <a href="/gallery"><li>Gallery</li></a>
     <li></li>
   </ul>
 </nav>
