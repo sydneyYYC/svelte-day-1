@@ -1,5 +1,11 @@
-<h1>Welcome to SvelteKit</h1>
-<p>Visit <a href="https://kit.svelte.dev">kit.svelte.dev</a> to read the documentation</p>
+<script>
+  let dailyContent = "Hello!"
+  let description = "this is my first svelte project :) yay"
+</script>
+
+<h1>Welcome to SvelteKit Dem0</h1>
+<p>{dailyContent}</p>
+<p>{description}</p>
 
 <nav>
   <ul>
