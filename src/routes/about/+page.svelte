@@ -16,8 +16,10 @@ let secondList = [
   <h2 class="text-3xl">Our Example List</h2>
   <ul class=" ml-8">
     {#each listItems as item, i}
-    <ListItem listStyles>{item}</ListItem>
+    <ListItem listStyles="bg-amber-50">{item}</ListItem>
     {/each}
+
+    <!-- you can rewrite default styles by using the styles tag from component and adding your override with ="[style]" -->
   </ul>
 </section>
 
