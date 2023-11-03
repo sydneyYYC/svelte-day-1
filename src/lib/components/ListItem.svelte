@@ -1,0 +1,1 @@
+<li class="text-2xl"><slot /></li> 
