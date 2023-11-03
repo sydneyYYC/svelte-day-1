@@ -1,6 +1,6 @@
 <script>
   import ListItem from "../../lib/components/ListItem.svelte";
-let listItems = ['dog', 'cat', 'fish', 'bird', 'lizard'];
+let listItems = ['har', 'dar', 'lar', 'car', 'var'];
 let secondList = [
   {name:'Alfred', species:'Dog'},
   {name:'Elvira', species:'cat'},
@@ -16,7 +16,7 @@ let secondList = [
   <h2 class="text-3xl">Our Example List</h2>
   <ul class=" ml-8">
     {#each listItems as item, i}
-    <ListItem>{item}</ListItem>
+    <ListItem listStyles>{item}</ListItem>
     {/each}
   </ul>
 </section>
@@ -25,7 +25,7 @@ let secondList = [
   <h2 class="text-3xl ml-8">Animals</h2>
   <ul class="ml-8">
     {#each secondList as {name, species}}
-    <ListItem>{name} is a {species}</ListItem>
+    <ListItem listStyles>{name} is a {species}</ListItem>
     {/each}
   </ul>  
 </section>
