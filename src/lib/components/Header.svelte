@@ -6,14 +6,16 @@
 4. room for flexibility (slots) -->
 
 <script>
-
+export let pageTitle;
+export let pageDescription;
+export let bgColor = "bg-blue-200";
 </script>
 
-<header class="bg-blue-200 min-w-full flex flex-col items-center p-2">
+<header class=" min-w-full flex flex-col items-center p-2 {bgColor}">
 
-<h1 class="text-4xl p-2 mx-4 font-bold">Title</h1>
+<h1 class="text-4xl p-2 mx-4 font-bold">{pageTitle}</h1>
 
-<p class="text-lg p-2">Description</p>
+<p class="text-lg p-2">{pageDescription}</p>
 <!-- <div class="bg-white text-blue-600 rounded-lg p-4">
 <slot />
 </div> -->
