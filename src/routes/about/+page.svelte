@@ -1,23 +1,19 @@
 <script>
   import ListItem from "../../lib/components/ListItem.svelte";
   import ListCharacters from "../../lib/components/ListCharacters.svelte";
+  import Header from "../../lib/components/Header.svelte";
 let listItems = ['har', 'dar', 'lar', 'car', 'var'];
 let secondList = [
   {name:'Alfred', species:'Dog'},
   {name:'Elvira', species:'cat'},
   {name:'sally', species:'crow'}
 ];
-let wahoo = [
-  {charName:'Mario', title: 'plumber'},
-  {charName:'Princess Peach', title:'princess'},
-  {charName:'Bowser', title:'King Koopa'},
-  {charName:'Luigi', title:'plumber'}
-]
 </script>
 
-<header class="my-4 text-center text-5xl">
+<Header {pageTitle} {pageDescription}/>
+<!-- <header class="my-4 text-center text-5xl">
   <h1>About Page</h1>
-</header>
+</header> -->
 
 <section class="text-center">
   <h2 class="text-3xl">Our Example List</h2>

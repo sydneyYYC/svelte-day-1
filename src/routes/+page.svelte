@@ -1,8 +1,13 @@
 <script>
-  import Card from "../lib/components/card.svelte";
+  import Header from "../lib/components/Header.svelte";
+import Card from "../lib/components/card.svelte";
 
-  let dailyContent = "Hello!"
-  let description = "this is my first svelte project :) yay"
+let pageTitle = 'Hello!';
+let pageDescription = "Welcome to the home page. This is my first svelte project :)"
+const bgColor = "bg-green-200"
+
+  // let dailyContent = "Hello!"
+  // let description = "this is my first svelte project :) yay"
 
   let hellos = [
     {title: "this is my first card", description: "keyboard cat"},
@@ -11,19 +16,20 @@
 ]
 </script>
 
-<h1 class="text-3xl text-center mt-4">Welcome to SvelteKit Dem0</h1>
+<Header {pageTitle} {pageDescription} {bgColor}/>
+<!-- <h1 class="text-3xl text-center mt-4">Welcome to SvelteKit Dem0</h1>
 <section class="font-semibold text-center p-4 mt-4">
 <p>{dailyContent}</p>
 <p>{description}</p>
-</section>
+</section> -->
 
-<nav class="bg-slate-200">
+<!-- <nav class="bg-slate-200">
   <ul>
     <li></li>
     <a href="/gallery"><li>Gallery</li></a>
     <li></li>
   </ul>
-</nav>
+</nav> -->
 
 <!-- for each loop -->
 {#each hellos as card}
