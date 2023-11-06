@@ -1,11 +1,18 @@
 <script>
   import ListItem from "../../lib/components/ListItem.svelte";
+  import ListCharacters from "../../lib/components/ListCharacters.svelte";
 let listItems = ['har', 'dar', 'lar', 'car', 'var'];
 let secondList = [
   {name:'Alfred', species:'Dog'},
   {name:'Elvira', species:'cat'},
   {name:'sally', species:'crow'}
 ];
+let wahoo = [
+  {charName:'Mario', title: 'plumber'},
+  {charName:'Princess Peach', title:'princess'},
+  {charName:'Bowser', title:'King Koopa'},
+  {charName:'Luigi', title:'plumber'}
+]
 </script>
 
 <header class="my-4 text-center text-5xl">
@@ -30,4 +37,13 @@ let secondList = [
     <ListItem listStyles>{name} is a {species}</ListItem>
     {/each}
   </ul>  
+</section>
+
+<section>
+  <h3 class="text-3xl ml-8 my-2">Mario Characters</h3>
+  <ul class="ml-8">
+    {#each wahoo as {charName, title}}
+    <ListCharacters charStyles>{charName} is an important {title}</ListCharacters>
+    {/each}
+  </ul>
 </section>
