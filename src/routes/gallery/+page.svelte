@@ -2,7 +2,7 @@
   import Card from "../../lib/components/card.svelte";
   const cardText = {
     title: 'Placeholder Title',
-    description: 'hohohohohohohahahahahahhahahha so much fun in svelte :) wowie zowie i should play more mario winder but i never have enough time :( because im learning too much'
+    description: 'hohohohohohohahahahahahhahahha so much fun in svelte :) wowie zowie i should play more mario wonder but i never have enough time :( because im learning too much'
   }
 
 </script>
