@@ -8,6 +8,7 @@ let secondList = [
   {name:'Elvira', species:'cat'},
   {name:'sally', species:'crow'}
 ];
+
 </script>
 
 <Header {pageTitle} {pageDescription}/>

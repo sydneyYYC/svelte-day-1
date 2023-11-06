@@ -5,9 +5,10 @@ const pageTitle = "Blog Page";
 const pageDescription = "This is my blog page for my Svelte Project";
 const bgColor = "bg-red-200";
 const name = 'Sydney';
+const flexContent = "my blog is the best"
 </script>
 
-<Header {pageTitle} {pageDescription} {bgColor}/>
+<Header {pageTitle} {pageDescription} {bgColor} />
 
 <!-- render a hello message if the name is ash 
 otherwise say GO AWAY b/c godfrey keeps trying to hack my site-->
