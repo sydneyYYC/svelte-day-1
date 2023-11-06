@@ -14,7 +14,7 @@
 <h1 class="text-4xl p-2 mx-4 font-bold">Title</h1>
 
 <p class="text-lg p-2">Description</p>
-<!-- <div class="bg-white text-blue-950">
+<!-- <div class="bg-white text-blue-600 rounded-lg p-4">
 <slot />
 </div> -->
 
