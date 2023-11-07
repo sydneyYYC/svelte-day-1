@@ -8,15 +8,6 @@ let secondList = [
   {name:'Elvira', species:'cat'},
   {name:'sally', species:'crow'}
 ];
-let wahoo = [
-  {charName:'Mario', title: 'plumber'},
-  {charName:'Princess Peach', title:'princess'},
-  {charName:'Bowser', title:'King Koopa'},
-  {charName:'Luigi', title:'plumber'}
-]
-const pageTitle = 'About Page';
-const pageDescription = 'This is a set of lists to practice else loops';
-// this page uses default colors for the header bg
 </script>
 
 <Header {pageTitle} {pageDescription}/>
