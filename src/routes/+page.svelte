@@ -1,5 +1,6 @@
 <script>
-  import Header from "../lib/components/Header.svelte";
+  import Button from "../lib/components/Button.svelte";
+import Header from "../lib/components/Header.svelte";
 import Card from "../lib/components/card.svelte";
 
 let pageTitle = 'Hello!';
@@ -14,6 +15,8 @@ const bgColor = "bg-green-200"
     {title: "this is my second card", description: "bongo cat"},
     {title: "this is my third card", description: "balthazar momalthizar fefifofalthizar the |||"}
 ]
+
+const btnText = "say Hello"
 </script>
 
 <Header {pageTitle} {pageDescription} {bgColor}/>
@@ -23,19 +26,14 @@ const bgColor = "bg-green-200"
 <p>{description}</p>
 </section> -->
 
-<!-- <nav class="bg-slate-200">
-  <ul>
-    <li></li>
-    <a href="/gallery"><li>Gallery</li></a>
-    <li></li>
-  </ul>
-</nav> -->
 
 <!-- for each loop -->
 {#each hellos as card}
 <Card {...card}/>
 
 {/each}
+
+<Button {btnText} />
 
 <!-- note using a for each loop: 
 
