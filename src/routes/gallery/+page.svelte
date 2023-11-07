@@ -2,12 +2,16 @@
   import Card from "../../lib/components/card.svelte";
   const cardText = {
     title: 'Placeholder Title',
-    description: 'hohohohohohohahahahahahhahahha so much fun in svelte :) wowie zowie i should play more mario wonder but i never have enough time :( because im learning too much'
+    description: 'hohohohohohohahahahahahhahahha so much fun in svelte :) wowie zowie'
   }
 
+  import Header from "../../lib/components/Header.svelte";
+  const pageTitle = "This is a Gallery";
+  const pageDescription = 'This is where i am working today on Nov 7'
 </script>
-<h1>This is a gallery</h1>
+<Header {pageTitle} {pageDescription}></Header>
 
 <Card {...cardText}/>
 
 <Card />
+
