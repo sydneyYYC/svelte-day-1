@@ -33,7 +33,7 @@ const bgColor = "bg-green-200"
 
 {/each}
 
-<Button></Button>
+<Button />
 
 <!-- note using a for each loop: 
 
