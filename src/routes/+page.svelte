@@ -16,7 +16,7 @@ const bgColor = "bg-green-200"
     {title: "this is my third card", description: "balthazar momalthizar fefifofalthizar the |||"}
 ]
 
-const btnText = "say Hello"
+
 </script>
 
 <Header {pageTitle} {pageDescription} {bgColor}/>
@@ -33,7 +33,7 @@ const btnText = "say Hello"
 
 {/each}
 
-<Button {btnText} />
+<Button></Button>
 
 <!-- note using a for each loop: 
 
