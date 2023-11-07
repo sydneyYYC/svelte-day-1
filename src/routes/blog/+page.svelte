@@ -21,6 +21,16 @@ function userLoginToggle() {
   // this changes the login state from true to false with the '!' conditional 
   return user.login =!user.login;
 };
+
+// stretch goals 
+// const activeUser = () => {
+
+// };
+// const users = [
+//   {name: 'ash',
+//   login: true
+// };
+// ]
 </script>
 
 <Header {pageTitle} {pageDescription} {bgColor} flexContent>This is for the Flexbox</Header>
