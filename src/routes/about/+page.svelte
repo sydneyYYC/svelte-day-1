@@ -6,8 +6,9 @@ let listItems = ['har', 'dar', 'lar', 'car', 'var'];
 let secondList = [
   {name:'Alfred', species:'Dog'},
   {name:'Elvira', species:'cat'},
-  {name:'sally', species:'crow'}
-];
+  {name:'sally', species:'crow'}]
+  let pageTitle = 'About Page';
+  let pageDescription = 'This is a page with many lists'
 
 </script>
 
